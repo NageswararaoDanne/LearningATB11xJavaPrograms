@@ -7,8 +7,15 @@ public class Lab007_Variables {
 
         int age = 99;
         age = age - 98;
-        age = 100000;
+//        age = 100000;
+int a;
+        try{
+            int x=age%0;
 
-        System.out.println("My exact age = " + age);
+        }catch(ArithmeticException e){
+            System.out.println("my Exception : "+e);
+        }
+
+//        System.out.println("My exact age = " + age);
     }
 }
