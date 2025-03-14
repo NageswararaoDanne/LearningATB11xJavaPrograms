@@ -3,9 +3,9 @@ package ex_02_Javabasics;
 public class Lab008_Printf {
     public static void main(String[] args) {
 
-        int x = 90;
+        int x = 9;
 //        System.out.printf("%d"+"*"+"1"+"="+"%d"+"\n", x,x);
-////        System.out.println();
+//       System.out.println();
 //
 //        int a = x*2;
 //        System.out.printf("%d"+"*"+"2"+"="+"%d"+"\n", x,a);
